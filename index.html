@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snake</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hud">
+        <div class="title">Snake</div>
+        <div class="score" aria-live="polite">
+          Score: <span id="score">0</span>
+        </div>
+        <div class="status" id="status"></div>
+      </header>
+
+      <section class="game">
+        <div id="grid" class="grid" role="grid" aria-label="Snake game grid"></div>
+      </section>
+
+      <section class="controls">
+        <button id="restart" type="button">Restart</button>
+        <button id="pause" type="button">Pause</button>
+      </section>
+
+      <section class="pad" aria-label="On-screen controls">
+        <button class="pad-btn" data-dir="up" aria-label="Up">▲</button>
+        <div class="pad-row">
+          <button class="pad-btn" data-dir="left" aria-label="Left">◀</button>
+          <button class="pad-btn" data-dir="down" aria-label="Down">▼</button>
+          <button class="pad-btn" data-dir="right" aria-label="Right">▶</button>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
