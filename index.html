@@ -3,38 +3,185 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Snake</title>
+    <title>Mehdi Azaiez — CV</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="app">
-      <header class="hud">
-        <div class="title">Snake</div>
-        <div class="score" aria-live="polite">
-          Score: <span id="score">0</span>
+    <main class="resume">
+      <header class="hero reveal">
+        <div class="hero-text">
+          <p class="kicker">Curriculum Vitae</p>
+          <h1>Mehdi Azaiez</h1>
+          <p class="subtitle">Fluent in French, English and Arabic</p>
         </div>
-        <div class="status" id="status"></div>
+        <div class="hero-contact">
+          <a href="tel:+15149437194">+1 514-943-7194</a>
+          <a href="mailto:azaiez.mehdi@icloud.com">azaiez.mehdi@icloud.com</a>
+          <a href="https://www.linkedin.com/in/azaiez-mehdi-">linkedin.com/in/azaiez-mehdi-</a>
+          <a href="https://github.com/m-azaiez">github.com/m-azaiez</a>
+        </div>
       </header>
 
-      <section class="game">
-        <div id="grid" class="grid" role="grid" aria-label="Snake game grid"></div>
-      </section>
+      <div class="layout">
+        <section class="primary">
+          <section class="section reveal delay-1" aria-labelledby="experience-title">
+            <h2 id="experience-title">Experience</h2>
 
-      <section class="controls">
-        <button id="restart" type="button">Restart</button>
-        <button id="pause" type="button">Pause</button>
-      </section>
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>Rugby Coach</h3>
+                  <p class="meta">École des Gaulois (U14) · Montreal, QC</p>
+                </div>
+                <span class="date">Jan 2025 – Present</span>
+              </div>
+              <ul class="bullets">
+                <li>Planned and led training sessions (technical, tactical, playful) tailored to youth categories.</li>
+                <li>Supervised and mentored players (ages 12–14), fostering teamwork and personal development.</li>
+              </ul>
+            </article>
 
-      <section class="pad" aria-label="On-screen controls">
-        <button class="pad-btn" data-dir="up" aria-label="Up">▲</button>
-        <div class="pad-row">
-          <button class="pad-btn" data-dir="left" aria-label="Left">◀</button>
-          <button class="pad-btn" data-dir="down" aria-label="Down">▼</button>
-          <button class="pad-btn" data-dir="right" aria-label="Right">▶</button>
-        </div>
-      </section>
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>Discovery Intern</h3>
+                  <p class="meta">Socida – Automobile Dealership · Abidjan, Côte d’Ivoire</p>
+                </div>
+                <span class="date">Jun 2021</span>
+              </div>
+              <ul class="bullets">
+                <li>Learned about the process of vehicle importation and customs clearance in a large-scale dealership.</li>
+                <li>Monitored logistical and administrative workflows, gaining insight into supply chain management.</li>
+                <li>Observed IT-related operations and internal system upgrades used for inventory tracking.</li>
+              </ul>
+            </article>
+
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>Discovery Intern</h3>
+                  <p class="meta">Socida – Automobile Dealership · Abidjan, Côte d’Ivoire</p>
+                </div>
+                <span class="date">Feb 2020</span>
+              </div>
+              <ul class="bullets">
+                <li>Observed dealership professions including sales, after-sales service, and workshop operations.</li>
+                <li>Participated in customer reception and learned about client management processes.</li>
+                <li>Discovered internal company tools and digital systems used to support daily operations.</li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="section reveal delay-2" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>Flappy Bird – 2D Game Project</h3>
+                  <p class="meta">Python, Pygame</p>
+                </div>
+                <a class="link" href="https://github.com/ton-username/flappy-bird">Project Link</a>
+              </div>
+              <ul class="bullets">
+                <li>Designed a modular game structure separating physics, rendering, and game logic.</li>
+                <li>Implemented gravity-based motion, collision detection, and dynamic obstacle generation with state management.</li>
+              </ul>
+            </article>
+
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>Spark Coaching Website</h3>
+                  <p class="meta">Web Development</p>
+                </div>
+                <a class="link" href="https://github.com/jlbatata/spark-coaching">Project Link</a>
+              </div>
+              <ul class="bullets">
+                <li>Designed and deployed a website for Spark Coaching to promote training programs and client services.</li>
+                <li>Integrated interactive features and optimized performance for mobile, enabling seamless access for users.</li>
+              </ul>
+            </article>
+
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>International Chemistry Contest Website</h3>
+                  <p class="meta">Web Development</p>
+                </div>
+                <a class="link" href="https://github.com/jlbatata/chemistry-contest">Project Link</a>
+              </div>
+              <ul class="bullets">
+                <li>Created a website dedicated to an international chemistry competition, with clear sections for announcements.</li>
+                <li>Designed intuitive navigation and information pages to ensure accessibility for participants.</li>
+              </ul>
+            </article>
+
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>Shooting Ducks Game</h3>
+                  <p class="meta">Python Project</p>
+                </div>
+                <a class="link" href="https://github.com/jlbatata/shooting-ducks">Project Link</a>
+              </div>
+              <ul class="bullets">
+                <li>Built an arcade-style shooting game, featuring moving targets and a scoring system with progressive difficulty.</li>
+                <li>Programmed core game mechanics in Python with Pygame, applying object-oriented principles to structure logic.</li>
+              </ul>
+            </article>
+
+            <article class="item">
+              <div class="item-header">
+                <div>
+                  <h3>Tic-Tac-Toe with Computer Opponent</h3>
+                  <p class="meta">Python Project</p>
+                </div>
+                <a class="link" href="https://github.com/jlbatata/tic-tac-toe">Project Link</a>
+              </div>
+              <ul class="bullets">
+                <li>Developed a tic-tac-toe game player-vs-computer modes with AI decision-making.</li>
+                <li>Implemented algorithmic logic to simulate strategic gameplay and ensure replayability in a user-friendly interface.</li>
+              </ul>
+            </article>
+          </section>
+        </section>
+
+        <aside class="sidebar">
+          <section class="section reveal delay-1" aria-labelledby="education-title">
+            <h2 id="education-title">Education</h2>
+            <div class="item compact">
+              <h3>Polytechnique Montréal</h3>
+              <p class="meta">Bachelor in Computer Engineering, Minor in AI &amp; Data Science</p>
+              <p class="meta">Montreal, QC · 2025 – 2029</p>
+            </div>
+            <div class="item compact">
+              <h3>Lycée Pierre Mendes France</h3>
+              <p class="meta">French Baccalauréat, Mathematics and Computer Science</p>
+              <p class="meta">Tunis, Tunisie · 2024</p>
+            </div>
+          </section>
+
+          <section class="section reveal delay-2" aria-labelledby="skills-title">
+            <h2 id="skills-title">Technical Skills</h2>
+            <div class="item compact">
+              <p class="label">Programming Languages</p>
+              <p class="meta">Python, Javascript/Typescript, SQL, HTML/CSS</p>
+            </div>
+            <div class="item compact">
+              <p class="label">Development Tools</p>
+              <p class="meta">Git/GitHub, VS Code, PyCharm, Webflow, Pandas, Matplotlib</p>
+            </div>
+          </section>
+
+          <section class="section reveal delay-3" aria-labelledby="languages-title">
+            <h2 id="languages-title">Languages</h2>
+            <div class="item compact">
+              <p class="meta">French · English · Arabic</p>
+            </div>
+          </section>
+        </aside>
+      </div>
     </main>
-
-    <script type="module" src="src/main.js"></script>
   </body>
 </html>
