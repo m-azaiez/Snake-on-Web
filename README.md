@@ -28,7 +28,7 @@ It is not intended to be a production-level game, but rather a small personal pr
 ⸻
 
 ▶️ How to Run
-	1.	Open index.html in your browser.
+	1.	Open [Snake-On_Web](https://m-azaiez.github.io/Snake-on-Web/) in your browser.
 
 No installation or dependencies required.
 📚 Learning Goals
